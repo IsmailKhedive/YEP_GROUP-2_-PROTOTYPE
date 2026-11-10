@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142b57">
+  <meta name="description" content="YEP helps young people across East Africa build digital skills, collaborate and create community projects.">
+  <title>YEP | Youth Empowerment Project</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <div id="publicSite">
+    <header class="site-header wrap-wide">
+      <a class="brand" href="#home" aria-label="YEP home"><span class="brand-mark"><i></i><b></b></span><span>YEP<small>YOUTH EMPOWERMENT PROJECT</small></span></a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#learn-section">Learning</a><a href="#how-section">How it works</a><a href="#about-section">About YEP</a>
+        <button class="mobile-menu-action" data-action="login-open">Log in</button><button class="mobile-menu-action mobile-menu-join" data-action="signup-open">Join YEP</button>
+      </nav>
+      <div class="top-actions"><button class="button button-quiet" data-action="verify-open">Verify a certificate</button><button class="button button-text" data-action="login-open">Log in</button><button class="button button-primary" data-action="signup-open">Join YEP</button></div>
+      <button class="menu-toggle" aria-label="Open menu" data-action="menu">☰</button>
+    </header>
+
+    <main id="home">
+      <section class="hero wrap-wide">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> FOR YOUNG PEOPLE AGED 18–35 ACROSS EAST AFRICA</p>
+          <h1>Skills for your next idea.<br><em>People for the journey.</em></h1>
+          <p class="hero-lede">Build practical digital skills, learn with peers across borders, and turn a community idea into a mentored project.</p>
+          <div class="hero-actions"><button class="button button-primary button-large" data-action="signup-open">Create your free account <span>↗</span></button><button class="button button-outline button-large" data-action="learn-scroll">Explore learning</button></div>
+          <div class="hero-note"><span class="avatar-stack"><i>AN</i><i>BO</i><i>CW</i></span><span>Learn at your pace, even on a slower connection.</span></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of learners sharing ideas">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="idea-card idea-main"><span class="idea-tag">LEVEL ONE</span><strong>Digital skills<br>that work in real life</strong><span class="idea-progress"><i></i></span><small>Learning together · 6 sessions</small></div>
+          <div class="idea-card idea-float"><span class="spark">✳</span><b>Community project</b><small>Mentor-guided · team-built</small></div>
+          <div class="art-stamp"><span>YEP</span><small>LEARN<br>BUILD<br>SHARE</small></div>
+          <div class="art-caption">From a new skill<br>to a shared solution.</div>
+        </div>
+      </section>
+
+      <section class="trust-strip wrap-wide" id="about-section"><div><span class="strip-index">01</span><b>Start with practical learning</b><small>Digital literacy, AI and online safety</small></div><div><span class="strip-index">02</span><b>Meet your people</b><small>Virtual exchange across East Africa</small></div><div><span class="strip-index">03</span><b>Make something useful</b><small>Mentors support youth-led projects</small></div></section>
+
+      <section class="section wrap-wide" id="learn-section">
+        <div class="section-heading"><div><p class="eyebrow">A PATH THAT GROWS WITH YOU</p><h2>Learn something. Put it to work.</h2></div><p>YEP links online learning to real collaboration, so new skills become part of something you build.</p></div>
+        <div class="path-grid" id="how-section">
+          <article class="path-card path-card-blue"><span class="path-num">01 / LEARN</span><div class="path-icon">↗</div><h3>Build your digital foundation</h3><p>Short lessons help you practice digital skills, AI literacy, media literacy and online safety.</p><button class="text-link" data-action="signup-open">Explore Level One <span>→</span></button></article>
+          <article class="path-card path-card-gold"><span class="path-num">02 / CONNECT</span><div class="path-icon">⌘</div><h3>Learn with peers and mentors</h3><p>Join a virtual cohort, share perspectives, and get support from people who have built things before.</p><button class="text-link" data-action="signup-open">See how it works <span>→</span></button></article>
+          <article class="path-card path-card-green"><span class="path-num">03 / BUILD</span><div class="path-icon">✳</div><h3>Turn a local idea into a project</h3><p>Selected learners form a team and work through milestones on a community impact project.</p><button class="text-link" data-action="signup-open">Meet Level Two <span>→</span></button></article>
+        </div>
+      </section>
+
+      <section class="closing-band"><div class="wrap-wide closing-inner"><div><p class="eyebrow eyebrow-light">YOUR NEXT CHAPTER STARTS HERE</p><h2>Bring your curiosity.<br>We’ll bring the community.</h2></div><button class="button button-light button-large" data-action="signup-open">Join YEP <span>↗</span></button></div></section>
+      <footer class="site-footer wrap-wide"><a class="brand brand-footer" href="#home"><span class="brand-mark"><i></i><b></b></span><span>YEP<small>YOUTH EMPOWERMENT PROJECT</small></span></a><p>A proposed platform for learning, collaboration and youth-led projects.</p><button class="footer-link" data-action="verify-open">Verify a certificate</button><small>© YEP Group Two · Prototype</small></footer>
+    </main>
+  </div>
+
+  <section id="authScreen" class="auth-screen" hidden>
+    <div class="auth-top"><a class="brand" href="#home" data-action="home"><span class="brand-mark"><i></i><b></b></span><span>YEP<small>YOUTH EMPOWERMENT PROJECT</small></span></a><button class="button button-text" data-action="home">← Back to YEP</button></div>
+    <div class="auth-layout"><div class="auth-aside"><p class="eyebrow eyebrow-light">YOUR NEXT STEP</p><h2>Every good idea<br>starts with learning.</h2><p>Join a community of young people building skills and projects across East Africa.</p><div class="auth-aside-mark">Y</div></div>
+      <div class="auth-card" id="loginFormWrap"><p class="eyebrow">WELCOME BACK</p><h1>Log in to YEP</h1><p class="muted">Pick up where you left off.</p><form id="loginForm"><label>Email address<input name="email" type="email" autocomplete="username" required placeholder="you@example.com"></label><label>Password<input name="password" type="password" autocomplete="current-password" required placeholder="Your password"></label><p class="form-message" id="loginMessage" aria-live="polite"></p><button class="button button-primary button-full" type="submit">Log in <span>→</span></button></form><p class="auth-switch">New to YEP? <button class="inline-button" data-action="signup-open">Create an account</button></p><div class="demo-hint"><b>Explore the demo</b><span>amina@mail.com</span><span>pass1234</span><button class="inline-button" data-action="demo-login">Use demo account →</button></div></div>
+      <div class="auth-card" id="signupFormWrap" hidden><p class="eyebrow">START YOUR JOURNEY</p><h1>Create an account</h1><p class="muted">For participants aged 18–35.</p><form id="signupForm"><label>Full name<input name="name" required autocomplete="name" placeholder="Your name"></label><label>Email address<input name="email" type="email" required autocomplete="email" placeholder="you@example.com"></label><label>Password<input name="password" type="password" minlength="6" required autocomplete="new-password" placeholder="At least 6 characters"></label><div class="form-row"><label>Country<input name="country" required value="Uganda"></label><label>Date of birth<input name="dateOfBirth" type="date" required></label></div><label class="checkbox-label"><input type="checkbox" name="consent" required><span>I agree to the privacy notice and understand what information YEP collects.</span></label><p class="form-message" id="signupMessage" aria-live="polite"></p><button class="button button-primary button-full" type="submit">Create my account <span>→</span></button></form><p class="auth-switch">Already registered? <button class="inline-button" data-action="login-open">Log in</button></p></div>
+    </div>
+  </section>
+
+  <section id="verifyScreen" class="verify-screen" hidden><div class="verify-card"><button class="button button-text back-link" data-action="home">← Back to YEP</button><span class="verify-seal">✓</span><p class="eyebrow">CREDENTIAL CHECK</p><h1>Verify a YEP certificate</h1><p class="muted">Enter the unique code printed on the certificate.</p><form id="verifyForm"><label>Certificate code<input name="code" required placeholder="YEP-2026-0001-ABCD"></label><button class="button button-primary button-full" type="submit">Check certificate <span>→</span></button></form><div id="verifyResult" class="verify-result" aria-live="polite"></div></div></section>
+
+  <section id="portal" hidden></section>
+</body>
+</html>
